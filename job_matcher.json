@@ -263,7 +263,7 @@
     {
       "parameters": {
         "chatId": "=DEINE_tELEGRAM_ID",
-        "text": "=🚨 Neuer Top-Match gefunden! 🚨  💼 Job: {{ $json.job_titel }} 🎯 Score: {{ $json.match_score }}/100 🔥 Kategorie: {{ $json.kategorie }}  🧠 Warum du dich bewerben solltest: {{ $json.warum_bewerben }}  🔗 Link zur Stelle: {{ $json.url }}",
+        "text": "= Neuer Top-Match gefunden!    Job: {{ $json.job_titel }} 🎯 Score: {{ $json.match_score }}/100 🔥 Kategorie: {{ $json.kategorie }}  🧠 Warum du dich bewerben solltest: {{ $json.warum_bewerben }}  🔗 Link zur Stelle: {{ $json.url }}",
         "additionalFields": {
           "parse_mode": "HTML"
         }
@@ -290,10 +290,10 @@
         "actorSource": "store",
         "actorId": {
           "__rl": true,
-          "value": "hKByXkMQaC5Qt9UMN",
+          "value": "YOUR_APIFY_ACTOR",
           "mode": "id"
         },
-        "customBody": "{\n    \"count\": 200,\n    \"scrapeCompany\": true,\n    \"splitByLocation\": false,\n    \"urls\": [\n        \"https://www.linkedin.com/jobs/search/?keywords=werkstudent%20IT\"\n    ]\n}"
+        "customBody": "{\n    \"count\": 200,\n    \"scrapeCompany\": true,\n    \"splitByLocation\": false,\n    \"urls\": [\n        \"https://www.linkedin.com/jobs/search/?keywords=YOUR_SEARCH_QUERY\"\n    ]\n}"
       },
       "type": "@apify/n8n-nodes-apify.apify",
       "typeVersion": 1,
