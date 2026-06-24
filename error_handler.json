@@ -25,7 +25,7 @@
       ],
       "id": "d46f6d6e-08cd-4a91-9a32-33c1b3238eaa",
       "name": "Send a text message",
-      "webhookId": "184b9934-376f-44bb-be70-7eea5e931bb7",
+      "webhookId": "DEINE_WEBHOOK_ID",
       "credentials": {
         "telegramApi": {
           "id": "DEINE_TELEGRAM_API",
